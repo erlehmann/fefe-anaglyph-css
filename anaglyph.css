@@ -1,0 +1,76 @@
+@import url('http://fonts.googleapis.com/css?family=Lobster|Droid+Sans:regular,bold');
+
+* {
+    color: rgba(255, 0, 0, 0.5);
+    text-shadow:  0.5em 0 0 rgba(0, 255, 255, 0.5);
+}
+
+html {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAAEgBckRAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9oKBwIZKXIgUOsAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAASklEQVRo3u3WwQkAIAwEwYuNpP8u04BfFWG2gWPIJ4kkSZLe1Ov0ggEDBgwYMGDAgO78XU4MAAAAAAAAAAAAAAAAAACwrZL0z4ABRZkAuVnbMQUAAAAASUVORK5CYII=');
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 1.75;
+    padding: 2em;
+    position: static;
+}
+
+a,
+blockquote,
+h2,
+h2 + b,
+h2 + b + p,
+h3,
+body > ul > li {
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+a:hover,
+blockquote:hover,
+h2:hover,
+h2 + b:hover,
+h2 + b + p:hover,
+h3:hover,
+body > ul > li:hover {
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', fantasy;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h2,
+h2 + b,
+h2 + b + p,
+h3 {
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+body > ul {
+    margin: auto;
+    max-width: 40em;
+}
+
+    body > ul > li {
+        margin-bottom: 1em;
+    }
